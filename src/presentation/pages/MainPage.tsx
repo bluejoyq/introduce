@@ -6,8 +6,8 @@ export const MainPage = (): ReactElement => {
     <div>
       main
       <AccessTimeFilledIcon
-        css={css`
-          fill: red;
+        css={(theme) => css`
+          fill: ${theme.colors.background};
         `}
       />
       {import.meta.env.VITE_EXAMPLE}
