@@ -29,8 +29,11 @@ export const MainPage = (): ReactElement => {
         }
       />
       <h3
-        css={css`
+        css={(theme) => css`
           ${typoStyles}
+          font-weight: 900;
+          font-size: 2rem;
+          color: ${theme.colors.onBackground};
         `}
       >
         심규진
