@@ -1,16 +1,11 @@
 import { ReactElement } from "react";
 import AccessTimeFilledIcon from "@mui/icons-material/AccessTimeFilled";
 import { css } from "@emotion/react";
+import { Button } from "../components/Button";
 export const MainPage = (): ReactElement => {
   return (
     <div>
-      main
-      <AccessTimeFilledIcon
-        css={(theme) => css`
-          fill: ${theme.colors.background};
-        `}
-      />
-      {import.meta.env.VITE_EXAMPLE}
+      <Button>test</Button>
     </div>
   );
 };
