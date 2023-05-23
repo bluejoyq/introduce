@@ -136,6 +136,7 @@ export const GlobalStyles = (): ReactElement => {
           font-weight: normal;
           font-style: normal;
         }
+        @import url("https://cdnjs.cloudflare.com/ajax/libs/pretendard/1.3.6/static/pretendard.css");
       `}
     />
   );
