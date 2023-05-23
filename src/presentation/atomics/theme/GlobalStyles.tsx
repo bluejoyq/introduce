@@ -129,6 +129,13 @@ export const GlobalStyles = (): ReactElement => {
           border-collapse: collapse;
           border-spacing: 0;
         }
+        @font-face {
+          font-family: "CWDangamAsac-Bold";
+          src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/CWDangamAsac-Bold.woff")
+            format("woff");
+          font-weight: normal;
+          font-style: normal;
+        }
       `}
     />
   );
